@@ -1,0 +1,16 @@
+
+@function px2rem($args) {
+    @return $args / 2 + 0.5 ;
+}
+/**
+ *   高度
+**/
+$topbarheight: px2rem(88px);
+
+
+/**
+ *  颜色
+**/
+
+$primaryColor: #2784E2;
+$topbarColor: #ffffff;
