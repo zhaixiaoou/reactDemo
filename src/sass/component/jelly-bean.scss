@@ -1,0 +1,20 @@
+@import '../COMMON.scss';
+.jelly-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .jelly-item {
+        display: flex;
+        height: px2rem(180px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .jelly-img {
+            width: px2rem(56px);
+            height: px2rem(60px);
+        }
+    }
+
+}

@@ -20,3 +20,7 @@ code {
   overflow: hidden;
 }
 
+a:-webkit-any-link  {
+  color: #333333 ;
+  text-decoration: none;
+}

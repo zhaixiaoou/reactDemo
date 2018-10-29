@@ -12,10 +12,10 @@ import mineActiveIcon from '../images/component/footer/icon_me_selected.png';
 
 
 const FooterData = [
-    { text: '首页', icon: homeIcon, activeIcon: homeActiveIcon, link: '/'},
-    { text: '收车', icon: auctionIcon, activeIcon: auctionActiveIcon, link: '/auction'},
-    { text: '库存', icon: inventoryIcon, activeIcon: inventoryActiveIcon, link: '/inventory'},
-    { text: '我的', icon: mineIcon, activeIcon: mineActiveIcon, link: '/mine'},
+    { text: '首页', icon: homeIcon, activeIcon: homeActiveIcon, link: '/home'},
+    { text: '收车', icon: auctionIcon, activeIcon: auctionActiveIcon, link: '/home/auction'},
+    { text: '库存', icon: inventoryIcon, activeIcon: inventoryActiveIcon, link: '/home/inventory'},
+    { text: '我的', icon: mineIcon, activeIcon: mineActiveIcon, link: '/home/mine'},
 ];
 class Footer extends PureComponent {
 
